@@ -1,0 +1,12 @@
+PODS:
+  - DGActivityIndicatorView (2.1.1)
+
+DEPENDENCIES:
+  - DGActivityIndicatorView
+
+SPEC CHECKSUMS:
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+
+PODFILE CHECKSUM: b67aac871ad660c9db495963d71c3a64a6c9fb8d
+
+COCOAPODS: 1.2.0.beta.3
