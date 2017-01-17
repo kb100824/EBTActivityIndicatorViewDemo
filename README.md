@@ -91,6 +91,12 @@
 
 </table>
 
+#动画类型参考这里:
+<a href="https://github.com/ninjaprox/NVActivityIndicatorView">点击这里参考动画类型</a>
+
+
+
+
 #使用方法:
 ##显示指示器
 ```
