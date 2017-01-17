@@ -2,7 +2,8 @@
 <a href="https://github.com/gontovnik/DGActivityIndicatorView
 ">这里是DGActivityIndicatorView原来的链接</href>
 
-#PS:需要在原来DGActivityIndicatorView库中DGActivityIndicatorView.m实现文件中重写init方法:
+#注意PS:
+##需要在原来DGActivityIndicatorView库中DGActivityIndicatorView.m实现文件中重写init方法:
 ```
 - (instancetype)init{
 
