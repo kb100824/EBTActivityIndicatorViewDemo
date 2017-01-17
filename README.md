@@ -70,6 +70,9 @@
 </tr>
 <tr>
 <td>EBTDGActivityIndicatorAnimationTypeBallSpinFadeLoader</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </table>
 
@@ -86,21 +89,20 @@ withIndicatorColor:[UIColor redColor]
 [EBTDGActivityInidcatorView dismissActivityIndicatorView];
 ```
 #效果演示图1:
-!(Image)[https://github.com/KBvsMJ/EBTActivityIndicatorViewDemo/blob/master/demogif/1.gif]
+![Image](https://github.com/KBvsMJ/EBTActivityIndicatorViewDemo/blob/master/demogif/1.gif)
 
 
 
 #效果演示图2:
-!(Image)[https://github.com/KBvsMJ/EBTActivityIndicatorViewDemo/blob/master/demogif/2.gif]
+![Image](https://github.com/KBvsMJ/EBTActivityIndicatorViewDemo/blob/master/demogif/2.gif)
 
 
 #效果演示图3:
-!(Image)[https://github.com/KBvsMJ/EBTActivityIndicatorViewDemo/blob/master/demogif/3.gif]
-
+![Image](https://github.com/KBvsMJ/EBTActivityIndicatorViewDemo/blob/master/demogif/3.gif)
 
 #效果演示图4:
-!(Image)[https://github.com/KBvsMJ/EBTActivityIndicatorViewDemo/blob/master/demogif/4.gif]
+![Image](https://github.com/KBvsMJ/EBTActivityIndicatorViewDemo/blob/master/demogif/4.gif)
 
 
 #效果演示图5:
-!(Image)[https://github.com/KBvsMJ/EBTActivityIndicatorViewDemo/blob/master/demogif/5.gif]
+![Image](https://github.com/KBvsMJ/EBTActivityIndicatorViewDemo/blob/master/demogif/5.gif)
