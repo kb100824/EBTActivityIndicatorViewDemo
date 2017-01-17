@@ -3,37 +3,8 @@
 ">DGActivityIndicatorView</href>
 
 #动画类型:
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<style>
-#header
-{
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-	width:100%;
-	border-collapse:collapse;
-}
-#header td, #header th 
-{
-	font-size:1em;
-	border:1px solid #98bf21;
-	padding:3px 7px 2px 7px;
-}
-#header th 
-{
-	font-size:1.1em;
-	text-align:left;
-	padding-top:5px;
-	padding-bottom:4px;
-	background-color:#A7C942;
-	color:#ffffff;
-}
-#header tr.alt td 
-{
-	color:#000000;
-	background-color:#EAF2D3;
-}
-</style>
-<table id="header">
+
+<table >
 <tr >
  <th>动画类型1</th>
  <th>动画类型2</th>
@@ -49,7 +20,7 @@
   
 </tr>
 
-<tr  class="alt">
+<tr >
        <td>EBTDGActivityIndicatorAnimationTypeDoubleBounce</td>
        <td>EBTDGActivityIndicatorAnimationTypeTwoDots</td>
        <td>EBTDGActivityIndicatorAnimationTypeThreeDots</td>
@@ -63,7 +34,7 @@
 <td>EBTDGActivityIndicatorAnimationTypeBallRotate</td>
 </tr>
 
-<tr class="alt">
+<tr >
 <td>EBTDGActivityIndicatorAnimationTypeBallZigZag</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallZigZagDeflect</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallTrianglePath</td>
@@ -77,7 +48,7 @@
 <td>EBTDGActivityIndicatorAnimationTypeBallPulseSync</td>
 </tr>
 
-<tr class="alt">
+<tr >
 <td>EBTDGActivityIndicatorAnimationTypeBallBeat</td>
 <td>EBTDGActivityIndicatorAnimationTypeLineScalePulseOut</td>
 <td>EBTDGActivityIndicatorAnimationTypeLineScalePulseOutRapid</td>
@@ -91,7 +62,7 @@
 <td>EBTDGActivityIndicatorAnimationTypeBallGridPulse</td>
 </tr>
 
-<tr class="alt">
+<tr >
 <td>EBTDGActivityIndicatorAnimationTypeRotatingSanEBTDGlass</td>
 <td>EBTDGActivityIndicatorAnimationTypeRotatingTrigons</td>
 <td>EBTDGActivityIndicatorAnimationTypeTripleRings</td>
@@ -99,9 +70,7 @@
 </tr>
 <tr >
 <td>EBTDGActivityIndicatorAnimationTypeBallSpinFadeLoader</td>
-<td></td>
-<td></td>
-<td></td>
+
 </tr>
 
 </table>
