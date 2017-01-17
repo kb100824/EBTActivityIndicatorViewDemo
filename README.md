@@ -5,11 +5,12 @@
 #动画类型:
 <table>
 <tr>
- <th>动画类型</th>
- <th>动画类型</th>
- <th>动画类型</th>
- <th>动画类型</th>
+ <th>动画类型1</th>
+ <th>动画类型2</th>
+ <th>动画类型3</th>
+ <th>动画类型4</th>
 </tr>
+
 <tr>
    <td>EBTDGActivityIndicatorAnimationTypeNineDots</td>
    <td>EBTDGActivityIndicatorAnimationTypeTriplePulse</td>
@@ -22,7 +23,6 @@
        <td>EBTDGActivityIndicatorAnimationTypeTwoDots</td>
        <td>EBTDGActivityIndicatorAnimationTypeThreeDots</td>
        <td>EBTDGActivityIndicatorAnimationTypeBallPulse</td>
-
 </tr>
 
 <tr>
@@ -30,7 +30,6 @@
 <td>EBTDGActivityIndicatorAnimationTypeBallClipRotatePulse</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallClipRotateMultiple</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallRotate</td>
-
 </tr>
 
 <tr>
@@ -38,14 +37,13 @@
 <td>EBTDGActivityIndicatorAnimationTypeBallZigZagDeflect</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallTrianglePath</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallScale</td>
-
 </tr>
+
 <tr>
 <td>EBTDGActivityIndicatorAnimationTypeLineScale</td>
 <td>EBTDGActivityIndicatorAnimationTypeLineScaleParty</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallScaleMultiple</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallPulseSync</td>
-
 </tr>
 
 <tr>
@@ -54,20 +52,21 @@
 <td>EBTDGActivityIndicatorAnimationTypeLineScalePulseOutRapid</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallScaleRipple</td>
 </tr>
+
 <tr>
 <td>EBTDGActivityIndicatorAnimationTypeBallScaleRippleMultiple</td>
 <td>EBTDGActivityIndicatorAnimationTypeTriangleSkewSpin</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallGridBeat</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallGridPulse</td>
-
 </tr>
+
 <tr>
 <td>EBTDGActivityIndicatorAnimationTypeRotatingSanEBTDGlass<td>
 <td>EBTDGActivityIndicatorAnimationTypeRotatingTrigons</td>
 <td>EBTDGActivityIndicatorAnimationTypeTripleRings</td>
 <td>EBTDGActivityIndicatorAnimationTypeCookieTerminator</td>
-
 </tr>
+
 <tr>
 <td>EBTDGActivityIndicatorAnimationTypeBallSpinFadeLoader</td>
 <td></td>
