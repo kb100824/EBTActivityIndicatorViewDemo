@@ -1,4 +1,4 @@
-# 在DGActivityIndicatorView第三方库基础上进行修改封装(支持cocoapods)
+# 自定义多种样式的活动指示器(支持cocoapods)
 <a href="https://github.com/gontovnik/DGActivityIndicatorView
 ">THANKS FOR DGActivityIndicatorView </href>
 
