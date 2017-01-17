@@ -3,76 +3,105 @@
 ">DGActivityIndicatorView</href>
 
 #动画类型:
-<table>
-<tr>
+<style>
+#header
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:100%;
+	border-collapse:collapse;
+}
+#header td, #header th 
+{
+	font-size:1em;
+	border:1px solid #98bf21;
+	padding:3px 7px 2px 7px;
+}
+#header th 
+{
+	font-size:1.1em;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#A7C942;
+	color:#ffffff;
+}
+#header tr.alt td 
+{
+	color:#000000;
+	background-color:#EAF2D3;
+}
+</style>
+<table id="header">
+<tr >
  <th>动画类型1</th>
  <th>动画类型2</th>
  <th>动画类型3</th>
  <th>动画类型4</th>
 </tr>
 
-<tr>
+<tr >
    <td>EBTDGActivityIndicatorAnimationTypeNineDots</td>
    <td>EBTDGActivityIndicatorAnimationTypeTriplePulse</td>
    <td>EBTDGActivityIndicatorAnimationTypeFiveDots</td>
    <td>EBTDGActivityIndicatorAnimationTypeRotatingSquares</td>
+  
 </tr>
 
-<tr>
+<tr  class="alt">
        <td>EBTDGActivityIndicatorAnimationTypeDoubleBounce</td>
        <td>EBTDGActivityIndicatorAnimationTypeTwoDots</td>
        <td>EBTDGActivityIndicatorAnimationTypeThreeDots</td>
        <td>EBTDGActivityIndicatorAnimationTypeBallPulse</td>
 </tr>
 
-<tr>
+<tr >
 <td>EBTDGActivityIndicatorAnimationTypeBallClipRotate</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallClipRotatePulse</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallClipRotateMultiple</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallRotate</td>
 </tr>
 
-<tr>
+<tr class="alt">
 <td>EBTDGActivityIndicatorAnimationTypeBallZigZag</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallZigZagDeflect</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallTrianglePath</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallScale</td>
 </tr>
 
-<tr>
+<tr >
 <td>EBTDGActivityIndicatorAnimationTypeLineScale</td>
 <td>EBTDGActivityIndicatorAnimationTypeLineScaleParty</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallScaleMultiple</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallPulseSync</td>
 </tr>
 
-<tr>
+<tr class="alt">
 <td>EBTDGActivityIndicatorAnimationTypeBallBeat</td>
 <td>EBTDGActivityIndicatorAnimationTypeLineScalePulseOut</td>
 <td>EBTDGActivityIndicatorAnimationTypeLineScalePulseOutRapid</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallScaleRipple</td>
 </tr>
 
-<tr>
+<tr >
 <td>EBTDGActivityIndicatorAnimationTypeBallScaleRippleMultiple</td>
 <td>EBTDGActivityIndicatorAnimationTypeTriangleSkewSpin</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallGridBeat</td>
 <td>EBTDGActivityIndicatorAnimationTypeBallGridPulse</td>
 </tr>
 
-<tr>
-<td>EBTDGActivityIndicatorAnimationTypeRotatingSanEBTDGlass<td>
+<tr class="alt">
+<td>EBTDGActivityIndicatorAnimationTypeRotatingSanEBTDGlass</td>
 <td>EBTDGActivityIndicatorAnimationTypeRotatingTrigons</td>
 <td>EBTDGActivityIndicatorAnimationTypeTripleRings</td>
 <td>EBTDGActivityIndicatorAnimationTypeCookieTerminator</td>
 </tr>
-
-<tr>
+<tr >
 <td>EBTDGActivityIndicatorAnimationTypeBallSpinFadeLoader</td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
+
 </table>
 
 #使用方法:
