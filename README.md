@@ -1,6 +1,6 @@
 # 在DGActivityIndicatorView第三方库基础上进行修改封装(支持cocoapods)
 <a href="https://github.com/gontovnik/DGActivityIndicatorView
-">这里是DGActivityIndicatorView原来的链接</href>
+">THANKS FOR DGActivityIndicatorView </href>
 
 #使用pod指令:
 ```
