@@ -2,6 +2,42 @@
 <a href="https://github.com/gontovnik/DGActivityIndicatorView
 ">DGActivityIndicatorView</href>
 
+#ps:需要在原来DGActivityIndicatorView库中DGActivityIndicatorView.m实现文件中重写init方法:
+```
+- (instancetype)init{
+
+    if (self = [super init]) {
+        _tintColor = [UIColor whiteColor];
+        _size = kDGActivityIndicatorDefaultSize;
+        [self commonInit];
+    }
+    return self;
+    
+}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #动画类型:
 
 <table >
