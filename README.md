@@ -2,7 +2,7 @@
 <a href="https://github.com/gontovnik/DGActivityIndicatorView
 ">DGActivityIndicatorView</href>
 
-#ps:需要在原来DGActivityIndicatorView库中DGActivityIndicatorView.m实现文件中重写init方法:
+#PS:需要在原来DGActivityIndicatorView库中DGActivityIndicatorView.m实现文件中重写init方法:
 ```
 - (instancetype)init{
 
@@ -16,26 +16,6 @@
 }
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #动画类型:
