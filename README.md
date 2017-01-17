@@ -1,6 +1,6 @@
 # 在DGActivityIndicatorView第三方库基础上进行修改封装
 <a href="https://github.com/gontovnik/DGActivityIndicatorView
-">DGActivityIndicatorView</href>
+">这里是DGActivityIndicatorView原来的链接</href>
 
 #PS:需要在原来DGActivityIndicatorView库中DGActivityIndicatorView.m实现文件中重写init方法:
 ```
