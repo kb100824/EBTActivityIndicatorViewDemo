@@ -22,7 +22,7 @@
 
 - (IBAction)btnClick:(UIButton *)sender {
     
-    [EBTDGActivityInidcatorView showActivityIndicatorView:EBTDGActivityIndicatorAnimationTypeBallPulseSync withIndicatorColor:[UIColor redColor] withDescription:@"网络请求数据加载中..."];
+    [EBTDGActivityInidcatorView showActivityIndicatorView:EBTDGActivityIndicatorAnimationTypeTwoDots withIndicatorColor:[UIColor redColor] withDescription:@"请求数据加载中..."];
     
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
