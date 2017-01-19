@@ -117,7 +117,9 @@ withIndicatorColor:[UIColor redColor]
 ```
 ###现在新增的类(+)方法
 ```
- [EBTDGActivityInidcatorView showActivityIndicatorViewBackGroundColor:[UIColor blueColor] withIndicatorType:EBTDGActivityIndicatorAnimationTypeTwoDots withIndicatorColor:[UIColor redColor] withDescription:@"加载中..." withDescriptionTextColor: [UIColor redColor]];
+ [EBTDGActivityInidcatorView showActivityIndicatorViewBackGroundColor:[UIColor blueColor] withIndicatorType:EBTDGActivityIndicatorAnimationTypeTwoDots 
+ withIndicatorColor:[UIColor redColor] withDescription:@"加载中..."
+ withDescriptionTextColor: [UIColor redColor]];
 ```
 ##移除指示器
 ```
