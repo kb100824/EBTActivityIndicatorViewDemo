@@ -4,7 +4,7 @@
 
 #使用pod指令:
 ```
- pod 'EBTDGActivityInidcatorView' 
+ pod 'EBTDGActivityInidcatorView'
 ```
 
 
@@ -21,7 +21,7 @@
         [self commonInit];
     }
     return self;
-    
+
 }
 
 ```
@@ -42,7 +42,7 @@
    <td>EBTDGActivityIndicatorAnimationTypeTriplePulse</td>
    <td>EBTDGActivityIndicatorAnimationTypeFiveDots</td>
    <td>EBTDGActivityIndicatorAnimationTypeRotatingSquares</td>
-  
+
 </tr>
 
 <tr >
@@ -108,11 +108,16 @@
 
 #使用方法:
 ##显示指示器
+###之前的旧的类(+)方法
 ```
 [EBTDGActivityInidcatorView showActivityIndicatorView:EBTDGActivityIndicatorAnimationTypeTwoDots
 withIndicatorColor:[UIColor redColor]
  withDescription:@"请求数据加载中..."];
 
+```
+###现在新增的类(+)方法
+```
+ [EBTDGActivityInidcatorView showActivityIndicatorViewBackGroundColor:[UIColor blueColor] withIndicatorType:EBTDGActivityIndicatorAnimationTypeTwoDots withIndicatorColor:[UIColor redColor] withDescription:@"加载中..." withDescriptionTextColor: [UIColor redColor]];
 ```
 ##移除指示器
 ```
