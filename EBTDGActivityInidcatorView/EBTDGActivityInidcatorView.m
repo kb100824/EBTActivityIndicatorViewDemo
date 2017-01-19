@@ -61,14 +61,14 @@
 
 
 
-- (void)commonComponentInit:(EBTDGActivityIndicatorAnimationType)activityIndicatorType withIndicatorColor:(UIColor *)indicatorColor withDescription:(NSString *)descriptionContent{
+- (void)commonComponentInit:(UIColor *)alertViewBgColor withIndicatorType:(EBTDGActivityIndicatorAnimationType)activityIndicatorType withIndicatorColor:(UIColor *)indicatorColor withDescription:(NSString *)descriptionContent withDescriptionTextColor:(UIColor *)descriptionTextColor{
    
     //初始化弹框背景alertBackGroundView
 //--------------------------------------------------------------------------------------//
     alertBackGroundView = [UIView new];
     alertBackGroundView.layer.masksToBounds = YES;
     alertBackGroundView.layer.cornerRadius = 3.f;
-    alertBackGroundView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5];
+    alertBackGroundView.backgroundColor = [alertViewBgColor?:[UIColor blackColor] colorWithAlphaComponent:0.75];
     alertBackGroundView.translatesAutoresizingMaskIntoConstraints = NO;
     [self addSubview:alertBackGroundView];
     NSDictionary *dict_alertView = @{
@@ -137,7 +137,7 @@
     lbl_Description = [UILabel new];
     lbl_Description.font = [UIFont systemFontOfSize:12];
     lbl_Description.translatesAutoresizingMaskIntoConstraints = NO;
-    lbl_Description.textColor = [UIColor whiteColor];
+    lbl_Description.textColor = descriptionTextColor?:[UIColor whiteColor];
     lbl_Description.text = descriptionContent?:@"加载中...";
     lbl_Description.textAlignment = NSTextAlignmentCenter;
     lbl_Description.translatesAutoresizingMaskIntoConstraints = NO;
@@ -291,17 +291,20 @@
        
     } completion:^(BOOL finished) {
         [activityIndicatorView stopAnimating];
-        [self removeFromSuperview];
+        self.hidden = YES;
+        //因为该view要多次创建所以直接设置hidden属性比较好
+        //[self removeFromSuperview];
     }];
     
 }
 - (void)showCustomDGActivityIndicatorView:(EBTDGActivityIndicatorAnimationType)activityIndicatorType withIndicatorColor:(UIColor *)indicatorColor withDescription:(NSString *)descriptionContent{
     
     
-    [[EBTDGActivityInidcatorView shareInstance] commonComponentInit:activityIndicatorType withIndicatorColor:indicatorColor withDescription:descriptionContent];
+    [[EBTDGActivityInidcatorView shareInstance] commonComponentInit:nil withIndicatorType:activityIndicatorType withIndicatorColor:indicatorColor withDescription:descriptionContent withDescriptionTextColor:nil];
     
     
     UIWindow *keyWindows = [UIApplication sharedApplication].keyWindow;
+    self.hidden = NO;
     [keyWindows addSubview:self];
     alertBackGroundView.alpha = 0;
     alertBackGroundView.transform = CGAffineTransformMakeScale(0.01, 0.01);
@@ -314,6 +317,31 @@
     }];
 
     
+}
+-(void)showActivityIndicatorViewBackGroundColor:(UIColor *)alertViewBgColor withIndicatorType:(EBTDGActivityIndicatorAnimationType)activityIndicatorType withIndicatorColor:(UIColor *)indicatorColor withDescription:(NSString *)descriptionContent withDescriptionTextColor:(UIColor *)descriptionTextColor{
+
+    
+    [[EBTDGActivityInidcatorView shareInstance] commonComponentInit:alertViewBgColor withIndicatorType:activityIndicatorType withIndicatorColor:indicatorColor withDescription:descriptionContent withDescriptionTextColor:descriptionTextColor];
+    
+    UIWindow *keyWindows = [UIApplication sharedApplication].keyWindow;
+    self.hidden = NO;
+    [keyWindows addSubview:self];
+    alertBackGroundView.alpha = 0;
+    alertBackGroundView.transform = CGAffineTransformMakeScale(0.01, 0.01);
+    [UIView animateWithDuration:0.3 animations:^{
+        alertBackGroundView.alpha = 1.f;
+        alertBackGroundView.transform = CGAffineTransformMakeScale(1.f, 1.f);
+        
+        [activityIndicatorView startAnimating];
+        
+    }];
+}
+
++ (void)showActivityIndicatorViewBackGroundColor:(UIColor *)alertViewBgColor withIndicatorType:(EBTDGActivityIndicatorAnimationType)activityIndicatorType withIndicatorColor:(UIColor *)indicatorColor withDescription:(NSString *)descriptionContent withDescriptionTextColor:(UIColor *)descriptionTextColor{
+
+
+    [[EBTDGActivityInidcatorView shareInstance] showActivityIndicatorViewBackGroundColor:alertViewBgColor withIndicatorType:activityIndicatorType withIndicatorColor:indicatorColor withDescription:descriptionContent withDescriptionTextColor:descriptionTextColor];
+
 }
 
 + (void)showActivityIndicatorView:(EBTDGActivityIndicatorAnimationType)activityIndicatorType withIndicatorColor:(UIColor *)indicatorColor withDescription:(NSString *)descriptionContent{
