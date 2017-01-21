@@ -16,15 +16,15 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EBTDGActivityInidcatorView"
-  s.version      = "1.0.0"
-  s.summary      = "DGActivityIndicatorView third-party library in the modified package"
+  s.version      = "1.0.1"
+  s.summary      = "DGActivityIndicatorView third-party library in the modified package Add New Method"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "In the DGActivityIndicatorView third-party libraries based on the modified package, to achieve a custom style indicator"
+  s.description  = "In the DGActivityIndicatorView third-party libraries based on the modified package, to achieve a custom style indicator Add New Method"
 
   s.homepage     = "https://github.com/KBvsMJ/EBTActivityIndicatorViewDemo"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -66,7 +66,7 @@ Pod::Spec.new do |s|
    s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+   s.ios.deployment_target = "8.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
